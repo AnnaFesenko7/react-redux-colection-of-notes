@@ -1,8 +1,5 @@
-import { useState, useEffect } from 'react';
-import {
-  useDispatch,
-  useSelector,
-} from 'react-redux';
+import { useState } from 'react';
+import { useSelector } from 'react-redux';
 import Container from 'components/Container/Container';
 import TodoList from 'components/TodoList/TodoList';
 import TodoEditor from 'components/TodoEditor/TodoEditor';
@@ -12,7 +9,7 @@ import Modal from 'components/Modal/Modal';
 import IconButton from 'components/IconButton/IconButton';
 import { ReactComponent as AddIcon } from '../../icons/plus.svg';
 import todosSelectors from '../../redux/todos/todos-selectors';
-import todosOperations from '../../redux/todos/todos-operations';
+// import todosOperations from '../../redux/todos/todos-operations';
 
 const barStyles = {
   display: 'flex',
@@ -20,8 +17,8 @@ const barStyles = {
   marginBottom: 20,
 };
 
-export default function TodosView(params) {
-  const dispatch = useDispatch();
+export default function TodosView() {
+  // const dispatch = useDispatch();
   const isLoadingTodos = useSelector(
     todosSelectors.getLoading
   );
