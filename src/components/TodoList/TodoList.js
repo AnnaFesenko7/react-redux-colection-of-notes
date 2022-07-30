@@ -2,7 +2,7 @@ import s from 'components/TodoList/TodoList.module.css';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import todosOperations from '../../redux/todos/todos-operations';
-import { useSelector } from 'react-redux';
+
 import todosSelectors from '../../redux/todos/todos-selectors';
 
 class TodoList extends Component {
