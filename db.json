@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": "Ld8NEsRkn",
+      "text": "Разобраться с React-router",
+      "completed": false
+    },
+    {
+      "id": "EWqI39HZq",
+      "text": "Пережить Redux",
+      "completed": true
+    },
+    {
+      "id": "Hlilogw0a",
+      "text": "Понять React-persist",
+      "completed": false
+    },
+    {
+      "id": "zbNhK3KK9",
+      "text": "Выучить основы React",
+      "completed": false
+    },
+    {
+      "id": "9zlvqYNO7",
+      "text": "React-redux labrary",
+      "completed": true
+    }
+  ]
+}

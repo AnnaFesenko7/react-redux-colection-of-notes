@@ -1,0 +1,33 @@
+.totalList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(400px, 1fr)
+  );
+  grid-gap: 24px;
+}
+.totalListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid teal;
+}
+.totalList__text {
+  margin-right: 10px;
+}
+
+.totalList__button {
+  width: 150px;
+  height: 30px;
+  background-color: teal;
+  color: #fff;
+  display: block;
+  border-radius: 50px;
+
+  text-align: center;
+}
