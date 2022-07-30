@@ -24,12 +24,12 @@ function Clock({ selectedDate }) {
       intervalId.current = setInterval(() => {
         setTime(Date.now());
       }, 1000);
-
-      return () => {
-        console.log('clear');
-        onStop();
-      };
+      return;
     }
+    return () => {
+      console.log('clear');
+      onStop();
+    };
   }, []);
 
   const onStop = () => {

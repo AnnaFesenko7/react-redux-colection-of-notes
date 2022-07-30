@@ -1,4 +1,3 @@
-import { useSelector } from 'react-redux';
 import Navigation from './Navigation';
 
 const styles = {
