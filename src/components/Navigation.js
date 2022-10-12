@@ -46,6 +46,14 @@ const Navigation = () => (
     >
       Todos
     </NavLink>
+    <NavLink
+      to="/formik"
+      style={({ isActive }) =>
+        isActive ? activeStyleLink : styleLink
+      }
+    >
+      Formik
+    </NavLink>
   </nav>
 );
 

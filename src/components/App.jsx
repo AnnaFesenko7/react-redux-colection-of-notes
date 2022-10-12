@@ -5,6 +5,7 @@ import AppBar from './AppBar';
 import TodosView from 'components/views/TodosView';
 import Clock from './Clock/Clock';
 import Counter from 'components/Counter/Counter';
+import Formik from 'components/formik/Formik';
 
 export default function App() {
   // const dispatch = useDispatch();
@@ -30,6 +31,10 @@ export default function App() {
         <Route
           path="/todos"
           element={<TodosView />}
+        />
+        <Route
+          path="/formik"
+          element={<Formik />}
         />
       </Routes>
     </Container>

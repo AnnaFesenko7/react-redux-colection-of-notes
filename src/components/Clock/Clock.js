@@ -26,10 +26,7 @@ function Clock({ selectedDate }) {
       }, 1000);
       return;
     }
-    return () => {
-      console.log('clear');
-      onStop();
-    };
+    return () => (intervalId.current = null);
   }, []);
 
   const onStop = () => {
